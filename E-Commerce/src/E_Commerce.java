@@ -23,8 +23,8 @@ public void add_product(Product product)
 }
 public void checkout(Customer customer,Cart cart)
 {
-    customer.getBalance(); //the balance with customer
-    cart.order_total();//the total price
+  //  customer.getBalance();   the balance with customer
+ //   cart.order_total();      the total price
     if(cart.items.isEmpty())
     {
         System.out.println("Error:The cart is empty");
