@@ -1,13 +1,13 @@
 public class Product{
-    private String name;
-    private double price;
+    protected String name;
+    protected double price;
     // private int quantity;
     public Product(String name,double price){
         this.name=name;
         this.price=price;
         //  this.quantity=quantity;
     }
-    double getPrice(){
+   public double getPrice(){
         return this.price;
     }
     String  getName(){

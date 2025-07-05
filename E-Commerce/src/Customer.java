@@ -5,7 +5,7 @@ public class Customer{
         this.name=name;
         this.balance=balance;
     }
-    double getBalance(){
+  public double getBalance(){
         return this.balance;
     }
 }

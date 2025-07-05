@@ -4,7 +4,7 @@ public class Shippable extends Product{
         super(name,price);
         this.wight=wight;
     }
-    double getWight(){
+   public double getWight(){
         return this.wight;
     }
 }

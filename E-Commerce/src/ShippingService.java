@@ -1,4 +1,4 @@
 public interface ShippingService{
-    String getName();
-    double getWight();
+   String getName();
+   double getWight();
 }
